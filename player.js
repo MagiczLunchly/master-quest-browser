@@ -37,11 +37,11 @@ function boot(file, remembered = true) {
   }
   started = true;
   window.EJS_player = '#game';
-  window.EJS_core = 'n64';
+  window.EJS_core = 'parallel_n64';
   window.EJS_gameName = 'Zelda Master Quest.z64';
   window.EJS_gameUrl = URL.createObjectURL(file);
   window.EJS_pathtodata = 'https://cdn.emulatorjs.org/stable/data/';
-  window.EJS_threads = true;
+  window.EJS_threads = false;
   window.EJS_startOnLoaded = true;
   window.EJS_defaultOptions = { shader: 'disabled' };
   window.EJS_color = '#91c977';
